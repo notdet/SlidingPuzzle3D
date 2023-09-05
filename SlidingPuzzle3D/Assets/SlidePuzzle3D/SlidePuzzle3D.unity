@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 6
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 2
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
@@ -850,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 1
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 7
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 8
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
@@ -2668,7 +2668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 5
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
@@ -2878,7 +2878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  number: 4
+  number: 3
   inRightPlace: 0
   smoothTime: 0.3
   maxSpeed: 40
