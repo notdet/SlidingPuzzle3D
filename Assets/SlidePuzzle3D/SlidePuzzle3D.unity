@@ -317,7 +317,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 6
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1 &110945363
 GameObject:
@@ -725,7 +725,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 2
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1 &260267710
 GameObject:
@@ -852,7 +852,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 1
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1001 &276469531
 PrefabInstance:
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 7
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1 &587628198
 GameObject:
@@ -1474,7 +1474,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 8
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1 &939651088
 GameObject:
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2670,7 +2670,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 5
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1001 &1781153690
 PrefabInstance:
@@ -2808,7 +2808,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 4
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1 &1861852810
 GameObject:
@@ -2880,7 +2880,7 @@ MonoBehaviour:
   targetPosition: {x: 0, y: 0, z: 0}
   number: 3
   inRightPlace: 0
-  smoothTime: 0.3
+  smoothTime: 0.5
   maxSpeed: 40
 --- !u!1 &1941232797
 GameObject:
