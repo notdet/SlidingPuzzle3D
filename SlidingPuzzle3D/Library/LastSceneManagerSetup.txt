@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/SlidePuzzle3D/SlidePuzzle3D.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
