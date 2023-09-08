@@ -48,7 +48,7 @@ public class SlidingPuzzle3DMain : MonoBehaviour
 
     }
 
-    
+
 
     void Update() //private?? //void OnMouseDown()
     //void OnMouseDown()
@@ -56,8 +56,8 @@ public class SlidingPuzzle3DMain : MonoBehaviour
 
         //bool gameWonUI = Camera.main.GetComponent<SlidingPuzzle3DMain>().gameWon;
         //gameWonObject.SetActive(gameWonUI); //miatokomkellide!!!
-        if (gameWon == true) 
-        { 
+        if (gameWon == true)
+        {
             gameWonObject.SetActive(true);
         }
 
@@ -69,11 +69,11 @@ public class SlidingPuzzle3DMain : MonoBehaviour
         }
         Vector3 mousePos = Input.mousePosition;
 
-            Ray ray = _camera.ScreenPointToRay(mousePos);
+        Ray ray = _camera.ScreenPointToRay(mousePos);
 
-            bool talalat = Physics.Raycast(ray, out RaycastHit hit, float.MaxValue, raycastMask) &&
-                       hit.collider.TryGetComponent<TilesScript>(out _); //<ExplosionSurface>
-        
+        bool talalat = Physics.Raycast(ray, out RaycastHit hit, float.MaxValue, raycastMask) &&
+                   hit.collider.TryGetComponent<TilesScript>(out _); //<ExplosionSurface>
+
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -103,12 +103,12 @@ public class SlidingPuzzle3DMain : MonoBehaviour
                     emptySpaceIndex = tileIndex;
 
                     //(hit.transform.position, emptySpace.position) = (emptySpace.position, hit.transform.position);
-                    
+
                     //Debug.Log(emptySpace.position);
                 }
             }
         }
-    
+
         int correctTiles = 0;
         foreach (var a in tiles)
         {
@@ -163,12 +163,12 @@ public class SlidingPuzzle3DMain : MonoBehaviour
         {
 
 
-            for (int i = 0; i <= tiles.Length-1; i++)
+            for (int i = 0; i <= tiles.Length - 1; i++)
             {
                 if (tiles[i] != null)
                 {
                     var lastPos = tiles[i].targetPosition;
-                    int randomIndex = Random.Range(i, tiles.Length-1); //(i, tiles.Length - 1) volt
+                    int randomIndex = Random.Range(i, tiles.Length - 1); //(i, tiles.Length - 1) volt
                     tiles[i].targetPosition = tiles[randomIndex].targetPosition;
                     tiles[randomIndex].targetPosition = lastPos;
                     var tile = tiles[i];
@@ -191,13 +191,13 @@ public class SlidingPuzzle3DMain : MonoBehaviour
 
     public int findIndex(TilesScript ts)
     {
-        for (int i = 0; i < tiles.Length; i++) 
-        { 
+        for (int i = 0; i < tiles.Length; i++)
+        {
             if (tiles[i] != null)
             {
                 if (tiles[i] == ts)
-                { 
-                 return i;
+                {
+                    return i;
                 }
             }
         }
@@ -238,7 +238,7 @@ public class SlidingPuzzle3DMain : MonoBehaviour
         SceneManager.LoadScene("SlidePuzzle3D");
     }
 
- 
+
 }
 
 /*

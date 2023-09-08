@@ -42,8 +42,8 @@ public class TilesScript : MonoBehaviour
         csusz = Camera.main.GetComponent<SlidingPuzzle3DMain>().csuszajgataasSpeed;
     }
     // Update is called once per frame
-    
-    
+
+
 
     void Update()
     {
@@ -58,7 +58,7 @@ public class TilesScript : MonoBehaviour
         // MeshRenderer[] allRenderers = GetComponentsInChildren<MeshRenderer>();
         //cachedMaterial = new Material[allRenderers.Length];
 
-        
+
         if (targetPosition == correctPosition)
         {
             /*for (int i = 0; i < allRenderers.Length; i++)
